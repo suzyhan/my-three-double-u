@@ -84,3 +84,38 @@ h2 {
 .hero-text p {
     margin-top: 5%;
 }
+
+/* About Me section */
+#about {
+    max-width: 100%;
+    padding: 50px 0;
+    background-color: black;
+}
+
+.container-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1 {
+    flex-basis: 40%;
+}
+
+.about-col-1 img {
+    width: 60%;
+    margin-left: 40%;
+    border-radius: 20px;
+    justify-content: end;
+}
+
+.about-col-2 {
+    flex-basis: 55%;
+    padding-right: 15%;
+}
+
+.section-title {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+}
