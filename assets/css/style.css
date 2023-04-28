@@ -291,3 +291,83 @@ form button {
 form button:hover {
     background: burlywood;
 }
+
+/* Media queries for responsive layout on various screens and devices that adapts to my viewport */
+@media screen and (max-width: 1030px) {
+    #header {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../images/coffee_background.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .project-hero-img {
+        background-image: url(../images/coffee_beans.jpeg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        width: 100vw;
+        height: 750px;
+    }
+    .project-hero-img-2 {
+        background-image: url(../images/coffee_grounds.jpeg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        width: 100vw;
+        height: 250px;
+    }
+    .project-hero-img-3 {
+        background-image: url(../images/espresso_machine.jpeg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        width: 100vw;
+        height: 250px;
+    }
+    .project-hero-img-4 {
+        background-image: url(../images/latte_art.jpeg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        width: 100vw;
+        height: 250px;
+    }
+    .project-hero-img-5 {
+        background-image: url(../images/coffee.jpeg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        width: 100vw;
+        height: 250px;
+    }
+    .grid {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        flex-wrap: wrap;
+        flex-direction: column;
+        column-gap: 20px;
+        row-gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1430px) {
+    .contact-left-col {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: auto;
+    }
+    .contact-right-col {
+        flex-basis: auto;
+        padding-left: 18%;
+    }
+    .text-box p {
+        color: black;
+        font-size: 20px;
+        text-align: center;
+    }
+}
