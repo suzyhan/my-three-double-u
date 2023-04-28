@@ -9,3 +9,78 @@ body {
     background-color: black;
     color: burlywood;
 }
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/coffee_background.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 5px 5%;
+}
+
+.logo {
+    width: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Display list to be horizontally aligned without bullet points */
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0%;
+    height: 10%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%
+}
+
+.hero-container {
+    height: 100vh;
+}
+
+.hero-text {
+    padding: 5%;
+    font-size: 20px;
+    color: black;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.hero-text p {
+    margin-top: 5%;
+}
