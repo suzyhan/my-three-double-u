@@ -229,3 +229,65 @@ h2 {
     width: 500px;
     height: 250px;
 }
+
+/* Contact section */
+
+#contact {
+    max-width: 100%;
+    padding: 50px 0;
+    background-color: black;
+}
+
+.container-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-title-3 {
+    font-size: 40px;
+    color: white;
+    margin-left: 30%;
+    margin-bottom: 40px;
+}
+
+.contact-left-col {
+    flex-basis: 35%;
+}
+
+.contact-left-col p {
+    margin-left: 30%;
+    margin-bottom: 5%;
+    font-size: 15px;
+}
+
+.contact-right-col {
+    flex-basis: auto;
+}
+
+.contact-right-col form {
+    width: 100%;
+}
+
+form input, form textarea {
+    width: 80%;
+    border: 0;
+    outline: none;
+    background: lightgrey;
+    padding: 15px;
+    margin: 15px 0;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+}
+form button {
+    padding: 15px 60px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: burlywood;
+}
