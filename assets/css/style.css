@@ -195,7 +195,7 @@ h2 {
 }
 
 .project-hero-img-2 {
-    background-image: url(../images/coffee_grounds.jpeg);
+    background-image: url(../images/gigs_landing_page.png);
     background-size: cover;
     background-position: center;
     border-radius: 20px;
@@ -310,7 +310,7 @@ form button:hover {
         height: 750px;
     }
     .project-hero-img-2 {
-        background-image: url(../images/coffee_grounds.jpeg);
+        background-image: url(../images/gigs_landing_page.png);
         background-size: cover;
         background-position: center;
         border-radius: 20px;
